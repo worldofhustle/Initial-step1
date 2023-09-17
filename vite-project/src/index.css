@@ -1,0 +1,333 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#loginpage{
+   background-color: #ffffff;
+   margin-top: 0%;
+   padding: 0%;
+   display: flex;
+   width: 100%;
+   gap: 0% !important;
+   
+}
+#loginform{
+    background-color: rgb(107, 81, 57);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 50px;
+    margin: 0%;
+}
+#loginform input,
+#loginform button {
+    margin-bottom: 20px !important;
+}
+
+.topadd{
+    height: 80px;
+    background-color: rgb(135, 60, 6);
+    margin-top: 0%;
+    padding: 0%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.navbar,.container,.bg-body-tertiary{
+    background-color: rgb(248, 215, 191) !important;
+}
+.bg-body-tertiary{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    /* justify-content:space-evenly !important; */
+   /* justify-content: normal !important; */
+   
+}
+.navbar-collapse {
+    flex-basis:auto ;
+    flex-grow:unset;
+    align-items: center;
+   /* gap: 50px; */
+}
+.cardaccount{
+    background-color: rgb(217, 213, 213);
+    width: 120px;
+    list-style: none;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    /* display: none; */
+
+
+    
+    
+}
+.cardaccount ul{
+    padding-left: 0%;
+}
+.cardaccount li{
+    margin-bottom: 3px;
+    color: black;
+}
+.cardaccount li:hover,
+.cardaccount .link:hover{
+    color: chocolate;
+    /* Add any other hover styles you want here */
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+.register{
+    /* background-color: rgb(135, 60, 6); */
+    display: flex;
+    /* flex-direction: column; */
+   gap: 3%;
+   background-color: rgb(225, 224, 224);
+   /* height: 100vh; */
+   margin-top: 0%;
+   padding-top: 0%;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    color: rgb(212, 212, 212);
+  
+}
+.register input{
+color: white;
+}
+.register input::placeholder{
+    color: rgb(208, 204, 204);
+}
+
+.formregister input,select{
+    
+    width: 270px;
+    height: 42px;
+   background-color: #673009;
+   background: linear-gradient(rgba(103, 48, 9, 1), rgba(91, 41, 6, 0.7)), rgba(135, 70, 23, 0.7);
+
+
+   /* background-image: url(./Images/image2.webp); */
+   border: 1px rgb(81, 76, 73) solid;
+   padding-left: 6px;
+   border-radius: 5px;
+   color: #f3ecec;
+   
+}
+input:focus{
+    outline: none;
+}
+.register label, input,select{
+    margin-bottom: 10px;
+   
+}
+.formregister{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.formregister input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.facebookbtn{
+    background: rgb(45, 116, 202) !important;
+    background: none;
+    margin-top: 10px;
+}
+.facebookbtn:hover{
+    background: rgb(62, 129, 211) !important;
+}
+.googlebtn{
+    
+    background:rgb(193, 192, 192) !important ;
+    margin-top: auto !important;
+    margin-right: auto !important;
+}
+.googlebtn:hover{
+    background: rgb(157, 157, 157) !important;
+}
+.register button{
+    height: 40px;
+    border: none;
+    width: 270px;
+      
+   
+    background-color: #673009;
+   background: linear-gradient(rgba(103, 48, 9, 1), rgba(116, 62, 23, 0.7)), rgba(135, 70, 23, 0.7);
+  
+   padding-left: 3px;
+   border-radius: 5px;
+}
+.register button:hover{
+  opacity: 0.9;
+}
+.sellerspage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+/* .carddiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    margin-left: 100px;
+   
+} */
+
+
+.carddiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 89%;
+    box-sizing: unset;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 100%; 
+    border-radius: 10px;
+}
+.informationforms{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+.cardintro{
+    /* border: black 1px solid; */
+    /* width:270px; */
+    width: 21.4%;
+    margin: 20px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: rgb(207, 205, 205);
+
+}
+.cardintro:hover{
+    background-color: rgb(180, 178, 176);
+}
+.sellertop{
+    font-size: 20px;
+    font-weight:600;
+}
+.line{
+    background-color: black;
+    height: 0.5px;
+    width: 100%;
+    margin-top: 20px;
+}
+.sellerdiv{
+    border: black 1px solid;
+    width: 29.7%;
+    margin: 20px;
+    padding: 30px;
+   
+
+}
+.sellerdiv input{
+    width:280px;
+    height: 35px;
+}
+.sellerdiv textarea{
+    width:280px ;
+    height:180px ;
+}
+.sellerdiv button{
+    
+   
+   background: linear-gradient(rgba(103, 48, 9, 1), rgba(116, 62, 23, 0.7)), rgba(135, 70, 23, 0.7);
+   width: 280px;
+   height: 35px;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+button{
+    background: linear-gradient(rgba(103, 48, 9, 1), rgba(116, 62, 23, 0.7)), rgba(135, 70, 23, 0.7);
+}
+button:hover{
+    opacity: 0.9;
+}
+.sellersubmit{
+    
+   background: linear-gradient(rgba(103, 48, 9, 1), rgba(116, 62, 23, 0.7)), rgba(135, 70, 23, 0.7);
+   width: 250px;
+   height: 35px;
+  color: white;
+  border: none;
+  /* margin-left: 20%; */
+  margin-right: 50%;
+  margin-left: 39%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 5px;
+ 
+ 
+}
+.sellerform{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    /* text-align: center; */
+}
+.sellerform h5{
+    text-align: center;
+}
+.mainsellerdiv{
+width: 100%;
+}
+#registerform{
+    margin: 0%;
+    background-color: rgb(107, 81, 57);
+    display: flex;
+    flex-direction: column;
+  
+}
+select#counties:focus {
+    outline: none;
+  }
+ .formadddetails{
+    
+ }
+ .form-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .form-section textarea{
+
+ }
